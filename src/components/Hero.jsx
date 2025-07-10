@@ -129,7 +129,7 @@ const Hero = () => {
             src={getVideoSrc(
               currentIndex == totalVideos - 1 ? 1 : currentIndex
             )}
-            // autoPlay
+              autoPlay
             loop
             muted
             id="next-video"
